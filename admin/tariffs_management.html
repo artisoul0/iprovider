@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- my styles -->
+    <link rel="stylesheet" href="/style.css"> 
+</head>
+<body>
+    
+    <div class="wrapper">
+        
+        <!-- tariffs pop up -->
+   
+        <div class="headerAbout">
+            <div class="container">
+                <div class="navigation_block"> 
+                  <div class="logo_block">
+                      <a href="/index.html" class="logo_href">
+                          <img src="/img/Logo.svg" alt="logo" class="logo">
+                          <h1 class="company_title">iProvider</h1>
+                          </a>
+                  </div>
+                  <div class="burger_menu">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                  </div>
+                  <nav class="navbar">
+                      <ul>
+                          <li><a href="/index.html" class="nav_link">About</a></li>
+                          <li class="li_drowpown"><img src="/img/dropdown_arrow.svg" alt=""><div class="dropdown"><a href="/services.html" class="nav_link">Service</a><div class="dropdown_content">
+                              <a href="/services.html" class="nav_link drop_link">Services</a>
+                              <a href="/tariffs_not_registered.html" class="nav_link drop_link">Tariffs</a>
+                          
+                          </div></div></li>
+                          <li><a href="/contacts.html" class="nav_link">Contacts</a></li>
+                          <div class="button_controllers button_controllers_in_burger">
+                              <a href="admin_panel.html"><button class="btn login">Admin</button></a>
+                              <button class="btn connect">Log out</button>
+                          </div>
+                      </ul>
+                  </nav>
+  
+                  <div class="button_controllers">
+                      <a href="admin_panel.html"><button class="btn login">Admin</button></a>
+                      <button class="btn connect">Log out</button>
+                  </div>
+                 
+              </div>
+          </div>
+          </div>
+          
+            <div class="content_5">
+                <div class="popup_sure_delete">
+                    <div class="popup_sure_delete_body">
+                        <div class="popup_sure_delete_title">Are you sure to delete this tariff?</div>
+                        <div class="popup_sure_delete_subtitle">All users that have this tariff will be INACTIVE, if you delete current tariff</div>
+                        <div class="popup_sure_delete_btns">
+                            <div class="popup_sure_delete_cancel_block">
+                                <button class="popup_sure_delete_cancel_btn">Cancel</button>
+                            </div>
+                            <div class="popup_sure_delete_delete_block">
+                                <button class="popup_sure_delete_delete_btn">Delete</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="container">
+                <div class="tariffs_management">
+                    <div class="tariffs_management_title">Tariffs Management</div>
+
+                    <div class="tariffs_management_controls">
+                        <div class="tariffs_management_controls_buttons">
+                            <div class="tariffs_management_controls_back"><button class="tariffs_management_controls_button_back"><a href="/admin/admin_panel.html">Back</a></button></div>
+                           <div class="tariffs_management_controls_add"> <a href="add_tariff.html"><button class="tariffs_management_controls_button_add">Add a new Tariff</button></a></div>
+                        </div>
+                        <div class="tariffs_management_controls_input">
+                            <input type="text" placeholder="Search by names">
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="test_class">
+                    <table class="tariffs_table">
+                        <tr>
+                            <th>Name</th>
+                            <th>Description</th>
+                            <th>Price</th>
+                            <th>Duration</th>
+                            <th>Service</th>
+                            <th>Action</th>
+                        </tr>
+                        <tr>
+                            <td>IP-TV Silver</td>
+                            <td>Surn and call anywhere</td>
+                            <td>500</td>
+                            <td>300 channels</td>
+                            <td>TV</td>
+                            <td>
+                                <div class="btns_manage_current_tariff">
+                                    
+                                    <a href="edit_tariff.html"><button class="table_edit_button">Edit</button></a> 
+                                    
+                                    
+                                    <button class="table_delete_button">Delete</button></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>IP-TV Silver</td>
+                            <td>Surn and call anywhere</td>
+                            <td>500</td>
+                            <td>300 channels</td>
+                            <td>TV</td>
+                            <td>
+                                <div class="btns_manage_current_tariff"><a href="edit_tariff.html"><button class="table_edit_button">Edit</button></a>  <button class="table_delete_button">Delete</button></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>IP-TV Silver</td>
+                            <td>Surn and call anywhere</td>
+                            <td>500</td>
+                            <td>300 channels</td>
+                            <td>TV</td>
+                            <td>
+                                <div class="btns_manage_current_tariff"><a href="edit_tariff.html"><button class="table_edit_button">Edit</button></a>  <button class="table_delete_button">Delete</button></div>
+                            </td>
+                        </tr>
+    
+                        
+                        
+                    </table>
+                </div>
+                <div class="pagination_for_table">
+                    <button class="previous">Previous</button>
+                    <button class="active_pag">1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button>4</button>
+                    <button>5</button>
+                    <button>6</button>
+                    <button>7</button>
+                    <button class="next">Next</button>
+                </div>
+                
+            </div>
+            </div>
+       
+        <footer>
+             <div class="container">
+                 <div class="footer_block">
+            <div class="authors">Made by proffesional students</div>
+            <div class="privacy">Privacy & Terms</div>
+            <div class="social_nets">
+                <ul>
+                    <li><a href="#"><img src="/img/social_nets/317727_facebook_social media_social_icon.svg" alt=""></a></li>
+                    <li><a href="#"><img src="/img/social_nets/317725_linkedin_social_icon.svg" alt=""></a></li>
+                    <li><a href="#"><img src="/img/social_nets/317723_social media_tweet_twitter_social_icon.svg" alt=""></a></li> 
+                    <li><a href="#"><img src="/img/social_nets/6929237_instagram_icon.svg" alt="" ></a></li>                     
+                </ul>
+            </div>
+            </div>
+        </div>
+        </footer>
+    
+    </div>
+    <script src="/app.js"></script>
+</body>
+</html>

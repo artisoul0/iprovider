@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iProvider about</title>
+
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- my styles -->
+    <link rel="stylesheet" href="/style.css"> 
+</head>
+<body>
+    <div class="wrapper">
+        <div class="headerAbout">
+            <div class="container">
+                <div class="navigation_block"> 
+                  <div class="logo_block">
+                      <a href="/index.html" class="logo_href">
+                          <img src="/img/Logo.svg" alt="logo" class="logo">
+                          <h1 class="company_title">iProvider</h1>
+                          </a>
+                  </div>
+                  <div class="burger_menu">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                  </div>
+                  <nav class="navbar">
+                      <ul>
+                          <li><a href="/index.html" class="nav_link">About</a></li>
+                          <li class="li_drowpown"><img src="/img/dropdown_arrow.svg" alt=""><div class="dropdown"><a href="/services.html" class="nav_link">Service</a><div class="dropdown_content">
+                              <a href="/services.html" class="nav_link drop_link">Services</a>
+                              <a href="/tariffs_not_registered.html" class="nav_link drop_link">Tariffs</a>
+                          
+                          </div></div></li>
+                          <li><a href="/contacts.html" class="nav_link">Contacts</a></li>
+                          <div class="button_controllers button_controllers_in_burger">
+                              <a href="admin_panel.html"><button class="btn login">Admin</button></a>
+                              <button class="btn connect">Log out</button>
+                          </div>
+                      </ul>
+                  </nav>
+  
+                  <div class="button_controllers">
+                      <a href="admin_panel.html"><button class="btn login">Admin</button></a>
+                      <button class="btn connect">Log out</button>
+                  </div>
+                 
+              </div>
+          </div>
+          </div>
+            <div class="content_9">
+                <div class="container">
+                    <div class="register_form">
+                        <div class="register_form_title">Tariff create form</div>
+                        <form action="1.php" class="register">
+                            <div class="main_inputs">
+                                <p>Name <span class="red_star">*</span></p>
+                                    <div><input type="text" placeholder="Tariff's name" class="tariff_name_inp inpw100"></div>
+                            </div>
+                            <div class="main_inputs">
+                                <p>Short Description <span class="red_star">*</span></span></p>
+                                    <textarea placeholder="Write some words about tariff" class="short_desc_inp inpw100"></textarea>
+                            </div>
+                            <div class="main_inputs">
+                                    <div class="price_duration">
+                                        <div class="price_block"><p>Price <span class="red_star">*</span></p>
+                                            <input type="text" placeholder="Price"> 
+                                        </div>
+                                            <div><p>Duration <span class="red_star">*</span></p><input type="text" placeholder="Days duration"></div>
+                                    </div>
+                            </div>
+
+                            <div class="main_inputs sort_by_service_block_input">
+                                <p>Services <span class="red_star">*</span></p>
+                                    <select name="" id="" class="inpw100">
+                                            <option value="" hidden>Service</option>
+                                            <option value="">Internet</option>
+                                            <option value="">Phone</option>
+                                            <option value="">Satelite-TV</option>
+                                            <option value="">IP-TV</option>
+                                    </select>
+                            </div>
+
+                            <div class="main_inputs">
+                                <p>Features <span class="red_star">*</span></p>
+                                <input type="text" placeholder="Write the feature" class="inpw100">
+                                    <div class="button_block_add_delete_feature">
+                                        <button class="add_feature">+ Add feature</button>
+                                        <button class="delete_feature">- Delete feature</button>
+                                    </div>
+                            </div>
+                            <div class="buttons_for_back_edit">
+                                <a href="tariffs_management.html" class="back_to_tariffs">Back</a>
+                                <a href="#" class="add_tariff">Add</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+       
+        <footer>
+             <div class="container">
+                 <div class="footer_block">
+            <div class="authors">Made by proffesional students</div>
+            <div class="privacy">Privacy & Terms</div>
+            <div class="social_nets">
+                <ul>
+                    <li><a href="#"><img src="/img/social_nets/317727_facebook_social media_social_icon.svg" alt=""></a></li>
+                    <li><a href="#"><img src="/img/social_nets/317725_linkedin_social_icon.svg" alt=""></a></li>
+                    <li><a href="#"><img src="/img/social_nets/317723_social media_tweet_twitter_social_icon.svg" alt=""></a></li> 
+                    <li><a href="#"><img src="/img/social_nets/6929237_instagram_icon.svg" alt="" ></a></li>                     
+                </ul>
+            </div>
+            </div>
+        </div>
+        </footer>
+    
+    </div>
+    <script src="/app.js"></script>
+</body>
+</html>
